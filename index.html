@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OFFICIAL MICROSOFT SUPPORT - VIRUS DETECTED</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'scam-blue': '#0000AA',
+              'scam-red': '#FF0000',
+              'scam-yellow': '#FFFF00',
+              'govt-gray': '#d4d0c8',
+              'link-blue': '#0000FF',
+            },
+            fontFamily: {
+              'comic': ['"Comic Sans MS"', 'serif'],
+              'windows': ['"Tahoma"', '"Verdana"', 'sans-serif'],
+            },
+            animation: {
+              'flash': 'flash 0.5s linear infinite',
+              'slide-in-annoying': 'slideIn 5s ease-in-out infinite alternate',
+              'violent-shake': 'shake 0.1s cubic-bezier(.36,.07,.19,.97) infinite',
+              'slide-in-fast': 'slideInFast 100ms ease-out forwards',
+              'slide-in-slow': 'slideInSlow 3s ease-out forwards',
+              'insane': 'insane 0.2s linear infinite',
+              'nausea': 'nausea 3s ease-in-out infinite',
+            },
+            keyframes: {
+              flash: {
+                '0%, 100%': { opacity: '1', backgroundColor: 'red', color: 'yellow' },
+                '50%': { opacity: '0.5', backgroundColor: 'yellow', color: 'red' },
+              },
+              slideIn: {
+                '0%': { transform: 'translateX(-100%)' },
+                '100%': { transform: 'translateX(0)' },
+              },
+              shake: {
+                '10%, 90%': { transform: 'translate3d(-4px, 0, 0)' },
+                '20%, 80%': { transform: 'translate3d(4px, 0, 0)' },
+                '30%, 50%, 70%': { transform: 'translate3d(-8px, 0, 0)' },
+                '40%, 60%': { transform: 'translate3d(8px, 0, 0)' }
+              },
+              fadeOut: {
+                '99%': { opacity: '1', filter: 'blur(0px)' },
+                '100%': { opacity: '0', filter: 'blur(10px)' }
+              },
+              slideInFast: {
+                '0%': { transform: 'translateX(100%) skewX(-20deg)' },
+                '100%': { transform: 'translateX(0) skewX(0deg)' }
+              },
+              slideInSlow: {
+                '0%': { transform: 'scale(0.1) rotate(-180deg)', opacity: '0' },
+                '100%': { transform: 'scale(1) rotate(0deg)', opacity: '1' }
+              },
+              insane: {
+                '0%': { transform: 'translate(0, 0) rotate(0deg) scale(1)' },
+                '25%': { transform: 'translate(-20px, 20px) rotate(-15deg) scale(1.1)' },
+                '50%': { transform: 'translate(20px, -20px) rotate(15deg) scale(0.9)' },
+                '75%': { transform: 'translate(-20px, -20px) rotate(-15deg) scale(1.2)' },
+                '100%': { transform: 'translate(0, 0) rotate(0deg) scale(1)' }
+              },
+              nausea: {
+                '0%, 100%': { transform: 'rotate(0deg) translate(0,0)' },
+                '25%': { transform: 'rotate(1deg) translate(5px, 5px)' },
+                '50%': { transform: 'rotate(-2deg) translate(-5px, 2px)' },
+                '75%': { transform: 'rotate(1deg) translate(2px, -5px)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='32' width='32' viewBox='0 0 32 32'%3E%3Cpath fill='%23FFFF00' stroke='black' stroke-width='2' d='M1 1l12 21 4-6 9 0L1 1z'/%3E%3C/svg%3E") 0 0, auto;
+      }
+      /* The Bad Strip UI Background */
+      .bg-bad-strips {
+        background: repeating-linear-gradient(
+          45deg,
+          #0000AA,
+          #0000AA 10px,
+          #FFFF00 10px,
+          #FFFF00 20px
+        );
+      }
+      
+      /* Make text disappear like previous request, but maybe slower for reading ads */
+      .disappearing-text {
+        animation: fadeOut 0.1s linear forwards 5000ms;
+      }
+
+      ::-webkit-scrollbar {
+        width: 15px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #d4d0c8;
+        border: 2px outset white;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #0000AA; 
+        border: 2px outset white;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-bad-strips text-white font-windows overflow-x-hidden">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
